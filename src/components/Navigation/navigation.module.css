@@ -1,0 +1,11 @@
+.navigation {
+    @apply flex mb-4;
+}
+
+.link {
+    @apply mr-2;
+
+    &:nth-last-child(1) {
+        @apply mr-0;
+    }
+}

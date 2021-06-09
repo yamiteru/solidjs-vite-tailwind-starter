@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply p-4;
+}
+
+a {
+    @apply text-primary;
+
+    &:hover, &.active {
+        @apply underline;
+    }
+}

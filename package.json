@@ -1,0 +1,25 @@
+{
+  "name": "solidjs-vite-tailwind-starter",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.0",
+    "postcss-import": "^14.0.2",
+    "postcss-nested": "^5.0.5",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^2.1.4",
+    "vite": "^2.3.6",
+    "vite-plugin-solid": "^1.8.0"
+  },
+  "dependencies": {
+    "solid-app-router": "^0.0.45",
+    "solid-js": "^0.26.5"
+  },
+  "engines": {
+    "node": ">=15.0.0"
+  }
+}
